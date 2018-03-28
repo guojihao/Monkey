@@ -14,7 +14,8 @@ namespace egg
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            var cc = "xxxxx";
+            BuildWebHost(args).Run();            
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
